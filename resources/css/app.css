@@ -1,0 +1,76 @@
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+}
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.movie_card {
+    flex: 0 0 25rem;
+    padding: 0 !important;
+    margin: 14px;
+    border-radius: 10px;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+.movie_card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 33rem;
+}
+
+.movie_info {
+    color: #5e5c5c;
+}
+
+.movie_info i {
+    font-size: 20px;
+}
+
+.card-title {
+    width: 80%;
+}
+
+.fav_button {
+    background-color: #ff3d49;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    right: 20px;
+    top: 500px;
+    font-size: 27px;
+    padding-left: 17px;
+    padding-top: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.movies-container {
+    margin: 5rem 5rem;
+}
+
+.favourite {
+    color: #f9a0a6;
+}
+
+.float-right {
+    float: right;
+}
